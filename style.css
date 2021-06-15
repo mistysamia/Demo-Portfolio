@@ -17,6 +17,9 @@ h1{
     float: left;
     padding-left: 7%;
 } 
+
+
+    
 .First-Section img{
     height: 100%;
     width: 100%;
@@ -37,4 +40,16 @@ h1{
     font-size:15px;
     text-decoration: none;
     padding: 10px 20px;
+}
+
+.Second-Section .First-Section {
+    padding-top: 90px;
+}
+
+.Second-Section .First-Section .Cv-Des{
+    margin-left: 30%;
+}
+
+.Second-Section .First-Section .Cv-Des #Des{
+    margin-bottom: 30px;
 }
