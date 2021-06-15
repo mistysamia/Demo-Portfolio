@@ -1,0 +1,40 @@
+body{
+    font-family: Georgia,Times,Times New Roman,serif; 
+}
+h1{
+    font-size: 50px;
+    
+}
+.orange-highlight{
+    color: rgb(247, 93, 66);
+}
+.ash-highlight{
+    color: rgb(97, 97, 97);
+    font-weight:  800px;;
+}
+.First-Section{
+    width: 40%;
+    float: left;
+    padding-left: 7%;
+} 
+.First-Section img{
+    height: 100%;
+    width: 100%;
+    margin-right: 15%;
+}
+.First-Section #Des{
+    margin-top: 50%;
+    margin-bottom: -30px;
+}
+.First-Section p{
+    width: 70%;
+}
+.Hired-Btn{
+    background-image: linear-gradient(15deg,rgb(219, 122, 110),rgb(233, 45, 12) );
+    border:none;
+    color: rgb(255, 255, 255);
+    border-radius:1mm;
+    font-size:15px;
+    text-decoration: none;
+    padding: 10px 20px;
+}
