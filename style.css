@@ -1,9 +1,11 @@
 body{
     font-family: Georgia,Times,Times New Roman,serif; 
+    background-color: whitesmoke;
+    margin:0%;
 }
 h1{
     font-size: 50px;
-    
+    color: rgb(40, 45, 61);
 }
 .orange-highlight{
     color: rgb(247, 93, 66);
@@ -12,7 +14,7 @@ h1{
     color: rgb(97, 97, 97);
     font-weight:  800px;;
 }
-.First-Section{
+.Section{
     width: 40%;
     float: left;
     padding-left: 7%;
@@ -20,16 +22,16 @@ h1{
 
 
     
-.First-Section img{
+.Section img{
     height: 100%;
     width: 100%;
     margin-right: 15%;
 }
-.First-Section #Des{
+.Section #Des{
     margin-top: 50%;
     margin-bottom: -30px;
 }
-.First-Section p{
+.Section p{
     width: 70%;
 }
 .Hired-Btn{
@@ -42,25 +44,88 @@ h1{
     padding: 10px 20px;
 }
 
-.Second-Section .First-Section {
+
+.First-Section{
+    height: 650px;
+}
+
+
+.Second-Section{
+    height: 700px;
+    padding-bottom: 5%;
+}
+.Second-Section .Section {
     padding-top: 90px;
 }
 
-.Second-Section .First-Section .Cv-Des{
+.Second-Section .Section .Cv-Des{
     margin-left: 30%;
 }
 
-.Second-Section .First-Section .Cv-Des #Des{
+.Second-Section .Section .Cv-Des #Des{
     margin-bottom: 30px;
 }
 
-.btn {
-    background-color: DodgerBlue;
-    border: none;
-    color: white;
-    padding: 12px 30px;
-    cursor: pointer;
-    font-size: 20px;
-  }
-  
- 
+
+.Third-Section{
+    background-color: rgb(223, 223, 223);
+    height: 1150px;
+}
+.Third-Section .First-Part{
+    text-align:center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.Third-Section .Second-Part{
+    background-color: rgb(248, 248, 248);
+    float: left;
+    margin-right: 3%;
+    margin-left: 5%;
+    border-radius: 5%;
+    height: 437px;
+    width: 427px;
+}
+.Third-Section .Third-Part{
+    background-color: rgb(248, 248, 248);
+    float: left;
+    margin-right: 3%;
+    border-radius: 5%;
+    height: 437px;
+    width: 427px;
+}
+
+.Third-Section .Forth-Part{
+    background-color:rgb(248, 248, 248);
+    float: left;
+    margin-right: 3%;
+    border-radius: 5%;
+    height: 437px;
+    width: 427px;
+}
+
+.LatestImg1{
+    height: 260px;
+    width: 367px;
+    margin-top: 5%;
+    margin-left: 7%;
+    margin-bottom: 5%;
+}
+.LatestImg2{
+    height: 307px;
+    width: 367px;
+    margin-left: 5%;
+}
+.LatestImg3{
+    height: 307px;
+    width: 367px;
+    margin-left: 6%;
+}
+h3{
+    padding-left: 11%;
+    font-weight: bolder;
+    color: rgb(46, 24, 102);
+}
+.Third-Section p{
+    width: 80%;
+    padding-left: 11%;
+}
