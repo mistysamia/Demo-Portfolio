@@ -49,6 +49,12 @@ h1{
     height: 650px;
 }
 
+.First-Section .Section #Des{
+    font-size: 60px;
+}
+.First-Section .Section .orange-highlight{
+    font-size: 56px;
+}
 
 .Second-Section{
     height: 700px;
@@ -69,7 +75,7 @@ h1{
 
 .Third-Section{
     background-color: rgb(223, 223, 223);
-    height: 1150px;
+    height: 900px;
 }
 .Third-Section .First-Part{
     text-align:center;
@@ -129,3 +135,34 @@ h3{
     width: 80%;
     padding-left: 11%;
 }
+
+
+.Forth {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+.Forth img{
+      width: 60%;
+      height: 40%;
+      padding-top: 10%;
+     
+  }
+
+  .forth-left {
+    position: absolute;
+    top: 59%;
+    left: 26%;
+  }
+  .forth-left h1{
+     font-size: 40px;
+     color: white;
+  }
+  .forth-right {
+    position: absolute;
+    top: 72%;
+    left: 66%;
+  }
+  
+
+  
